@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	<title>Product landing page</title>
+</head>
+<body>
+	<header id="header">
+		<div class="logo">
+			<img id="header-img" src="img/GotaFRIA.png" alt="logo gotafria" />
+		</div>
+		<nav id="nav-bar">
+			<ul class="nav">
+				<li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+				<li class="nav-item"><a class="nav-link" href="#how-it-works">How it works</a></li>
+				<li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div id="hero">
+		<h1>agua fresquita y un poco salada</h1>
+		<form id="form" action="https://www.freecodecamp.com/email-submit">
+			<input id="email" type="email" name="email" placeholder="Escribe tu email" required/>
+			<input id="submit" type="submit" value="enviar" class="btn"></input>
+		</form>
+	</div>
+	<div class="container">
+		<section id="features">
+			<div class="r-box">
+				<i class="fas fa-shipping-fast"></i>
+			</div>
+			<h2>Viaja a la velocidad de un camión con rayas</h2>
+			<p class="center-text">Fliparás cuando veas llegar un camión con rayas lleno de agua de mar a precio de tinta de impresora. <br/>¿Porque no usamos camiones cisterna con rayas? Pues porque nos da igual que se caiga, vamos a por más y te cobramos el viaje</p>
+			<div class="r-box">
+				<i class="fas fa-beer"></i>
+			</div>
+			<h2>¿Cómo funciona?</h2>
+			<p class="center-text">Te la puedes beber como si fuera cerveza y morir deshidratado. <br/>¿Porqué no invitar a todos tus vecinos hipsters y decirles que es lo moderno? <br/> Líbrate de esos barbudos engreidos de una vez por todas</p>
+			<div class="r-box">
+				<i class="fas fa-chart-line"></i>
+			</div>
+			<h2>¡Cada vez más caro!</h2>
+			<p class="center-text">Aprovecha hoy, porque mañana será aún más caro. <br/>¿Porque subimos los precios de esta manera? <br/>Vendemos agua de mar, no podemos creer que nos la compren</p>
+		</section>
+		<section id="how-it-works">
+			<iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/3V4Tdn4C0Js" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		</section>
+		<section id="pricing">
+			<div id="agualimpia">
+			  <div class="level">
+				Agua limpia
+			  </div>
+			  <h2>$10/l</h2>
+			  <p class="center-text">El señor que la echa al camión mira de vez en cuando por si hay alguna impureza. Y si ve alguna la quita sin ganas. Sistema infalible. ¡Garantizado!</p>
+			  <button class="btn cta">Select</button>
+			</div>
+			<div id="aguaconsal">
+			  <div class="level">
+				Con sal
+			  </div>
+			  <h2>$20/l</h2>
+			  <p class="center-text">¿Cuanto hace que no tiene una buena diarrea? ¿Se ha parado a pensar en lo que adelgaza? Rozar la muerte le hará aún más fuerte (y con tipín)</p>
+			  <button class="btn cta">Select</button>
+			</div>
+			<div id="aguaconalgas">
+			  <div class="level">
+				Con algas
+			  </div>
+			  <h2>$30/l</h2>
+			  <p class="center-text">La mejor agua con las más sucias algas que encontremos. Échela en su piscina y note como roza sus piernas con esa única y desagradable sensación</p>
+			  <button class="btn cta">Select</button>
+			</div>
+		  </section>
+		</div>
+		<footer>
+			<p class="footert"><strong>©GotaFRIA 2018</strong> Todos los derechos sobre el agua de mar reservados</p>
+		</footer>
+	<script src="/static/js/bootstrap.js"></script>
+	<!--<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>-->
+</body>
+</html>
